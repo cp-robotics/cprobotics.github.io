@@ -1,0 +1,34 @@
+ul {
+  list-style-type: none;
+  width: 100vw;
+  transform: translateX(-25%);
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #173444;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: "Roboto"; font-size: .8em; color: #b2bec4; font-weight: 600;
+  text-align: center;
+  padding: .75em 3em .75em 3em;
+  margin-right: 1em; margin-left: 1em;
+  text-decoration: none; transition: 0.3s; cursor: pointer;
+}
+
+li a:hover {
+  color: #ffffff;
+}
+
+.active {
+  color: #ffffff;
+  border-bottom: solid 4px #3e8cb7;
+}
