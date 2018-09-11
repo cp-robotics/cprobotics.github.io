@@ -22,8 +22,13 @@ body {
 }
 
 
-.section-container {
+.section-container-desktop {
   position: absolute; width: 50%; left: 50%; transform: translateX(-50%); margin: 0 auto;
+}
+
+.section-container-mobile {
+  position: absolute; width: 50%; left: 50%; transform: translateX(-50%); margin: 0 auto;
+  display: none;
 }
 
 .section {
@@ -43,9 +48,15 @@ body {
   padding-top: 2em;
 }
 
-.project-container {
+.project-container-desktop {
   padding-top: 2em;
   width: 45%;
+  display: inline-block;
+}
+
+.project-container-mobile {
+  padding-top: 2em;
+  width: 100%;
   display: inline-block;
 }
 
@@ -97,6 +108,7 @@ body {
 
 #footer {
   width: 100vw; padding: 1.5em 0 1.5em 0; bottom: 0;
+  font-family: "Roboto";font-size: .9em; font-weight: 600;
   background-color: #173444;
   transform: translateX(-25%);
 }
@@ -104,4 +116,9 @@ body {
 #copyright {
   color: #F5F5F5; font-weight: 100;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+      .section-container-mobile {display: inline;}
+      .section-container-desktop { display: none;}
 }
