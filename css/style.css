@@ -11,7 +11,7 @@ body {
 #splash {
   position: relative; top: 0;
   width: 100vw; height: 75vh;
-  background-color: #173444;
+  background-color: #002663;
   z-index: 20;
 }
 
@@ -21,6 +21,15 @@ body {
   padding: 1em 0 0 .5em; line-height: 0; text-align: center;
 }
 
+.question {
+  font-family: "Roboto"; font-size: 1em; color: #111111; font-weight: 500; font-style: italic;
+  margin-bottom: 0;
+}
+
+.answer {
+  font-family: "Roboto"; font-size: 1em; color: #111111; font-weight: 400;
+  margin-left: 3em;
+}
 
 .section-container-desktop {
   position: absolute; width: 50%; left: 50%; transform: translateX(-50%); margin: 0 auto;
@@ -39,6 +48,10 @@ body {
   padding-top: 5em;
 }
 
+#faq {
+  padding-top: 5em;
+}
+
 .section-title {
   font-family: "Roboto"; font-size: 1.15em; color: #111111; font-weight: 400;
 }
@@ -46,41 +59,6 @@ body {
 .section-desc {
   font-family: "Roboto"; font-size: 1em; color: #111111; font-weight: 300;
   padding-top: 2em;
-}
-
-.project-container-desktop {
-  padding-top: 2em;
-  width: 45%;
-  display: inline-block;
-}
-
-.project-container-mobile {
-  padding-top: 2em;
-  width: 100%;
-  display: inline-block;
-}
-
-.project-img {
-  width: 100%;
-}
-
-.project-links {
-  font-weight: 600; font-size: .95em; color: #3e8cb7;
-  cursor: pointer; text-decoration: none;
-  padding-left: 1em;
-  transition: 0.3s;
-}
-
-.project-links:hover {
-  color: #b2bec4;
-}
-
-.project-desc {
-  width: 100%;
-}
-
-.rgb {
-  float: right;
 }
 
 .outline-button {
@@ -95,11 +73,11 @@ body {
 
 .outline-button:hover {
   background-color: white;
-  color: #1e455b;
+  color: #002b70;
 }
 
 #social {
-  background-color: #1e455b;
+  background-color: #002b70;
   padding: 5em 0 5em 0;
   width: 100vw;
   transform: translateX(-25%);
@@ -109,7 +87,7 @@ body {
 #footer {
   width: 100vw; padding: 1.5em 0 1.5em 0; bottom: 0;
   font-family: "Roboto";font-size: .9em; font-weight: 600;
-  background-color: #173444;
+  background-color: #002663;
   transform: translateX(-25%);
 }
 

@@ -5,7 +5,7 @@ ul {
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  background-color: #173444;
+  background-color: #002663;
   position: -webkit-sticky;
   position: sticky;
   top: -1px;
@@ -30,7 +30,7 @@ li a:hover {
 
 .active {
   color: #ffffff;
-  border-bottom: solid 4px #3e8cb7;
+  border-bottom: solid 4px #92a8cc;
 }
 
 @media screen and (max-width: 768px) {
