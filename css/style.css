@@ -8,79 +8,50 @@ body {
   background-color: #F5F5F5;
 }
 
-#splash {
-  position: relative; top: 0;
-  width: 100vw; height: 75vh;
-  background-color: #002663;
-  z-index: 20;
-}
-
 #header {
-  width: 15em;
-  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -65%);
-  padding: 1em 0 0 .5em; line-height: 0; text-align: center;
-}
-
-.desktop {display: block;}
-.mobile {display: none;}
-
-.question {
-  font-style: italic; margin-bottom: 0;
-}
-
-.answer {
-  margin-left: 3em;
-}
-
-.section-container {
-  position: absolute; width: 50%; left: 50%; transform: translateX(-50%); margin: 0 auto;
-}
-
-.section {
-   padding: 0 0 5em 0;
-}
-
-#about {
-  padding-top: 5em;
-}
-
-#faq {
-  padding-top: 5em;
-}
-
-.outline-button {
-  border: solid 1px white;
-  background-color: transparent;
-  padding: .5em 1.5em .5em 1.5em;
-  cursor: pointer; text-decoration: none;
-  transition: 0.3s;
-}
-
-.outline-button:hover {
-  background-color: white;
-  color: #002b70;
-}
-
-#social {
-  background-color: #002b70;
-  padding: 5em 0 5em 0;
-  width: 100vw;
-  transform: translateX(-25%);
-  text-align: center;
+  background-color: #3f51b5; width: 100vw; height: 200px;
 }
 
 #footer {
-  width: 100vw; padding: 1.5em 0 1.5em 0; bottom: 0;
-  background-color: #002663;
-  transform: translateX(-25%);
-}
-
-#copyright {
-  color: #F5F5F5; font-weight: 100;
+  width: 100vw; padding: 1.5em 0 1.5em 0;
+  background-color: #3f51b5;
+  transform: translateX(-20%);
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-      .mobile {display: block;}
-      .desktop {display: none;}
+.header-container {
+  padding-left: 25px;
+  top: 50%;
+  vertical-align: middle;
+  padding-top: 1.5em;
+}
+
+.container {
+	width: 60vw;
+	left: 50%;
+	height: 100vh;
+	margin: auto;
+}
+
+.card {
+	margin-top: 100px;
+  margin-bottom: 100px;
+	background-color: white;
+}
+
+.card-container {
+	padding: 50px;
+}
+
+hr {
+	background-color: #d6d6d6; height: 1px; border: 0;
+}
+
+.outline-button {
+  border: 1px solid; border-color: #3f51b5; background-color: transparent; color: #3f51b5;
+  padding: 0.5em; transition: 0.5s; cursor: pointer;
+}
+
+.outline-button:hover {
+  background-color: #3f51b5; color: white;
 }

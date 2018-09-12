@@ -1,92 +1,118 @@
 <!DOCTYPE html>
 
 <head>
-  <title>Creighton Prep Robotics</title>
+  <title>CyberJays</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/shadow.css">
-  <link rel="stylesheet" href="css/nav.css">
-  <link rel="stylesheet" href="css/members.css">
   <link rel="stylesheet" href="css/text.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/roster.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
   <script type="text/javascript" src="js/scroll.js"></script>
 </head>
 
 <body>
 
-  <div id="splash" class="desktop">
+  <div id="header">
 
-    <img id="header" src="img/logo-white.svg">
+    <div class="header-container">
 
-  </div>
-
-  <div id="splash" class="mobile">
-
-    <img id="header" src="img/logo-white.svg">
-
-  </div>
-
-  <div class="section-container desktop">
-
-    <ul class="z-depth-1">
-      <li><a class="active button" onclick="scrollToTarget('splash')">HOME</a></li>
-      <li><a class="button" onclick="scrollToTarget('about')">ABOUT</a></li>
-      <li><a class="button" onclick="scrollToTarget('faq')">FAQ</a></li>
-      <li><a class="button" onclick="scrollToTarget('members')">ROSTER</a></li>
-      <li><a class="button" onclick="scrollToTarget('social')">SOCIAL</a></li>
-    </ul>
-
-    <div class="section" id="about">
-
-      <p class="black-text header-small section-title">
-        ABOUT
-      </p>
-
-      <p class="body black-text section-desc">
-        Our mission is to grow as people and the prevalence of robotics not only at our school but around Omaha through camps and outreach programs.
-        This all while focusing on being exemplary models of kindness and sportsmanship to others.
-        We are the only competing team in Omaha, NE.
-        Also we have made great progress in our rookie year, winning the Rookie Inspire Award at the Kansas City Regionals.
-      </p>
+      <p class="header-bold white-text">CyberJays</p>
 
     </div>
 
-    <div class="section" id="faq">
+  </div>
 
-      <p class="black-text header-small section-title">
-        FAQ
-      </p>
+  <ul class="z-depth-1">
+    <li><a class="button nav-links" onclick="scrollToTarget('about')">ABOUT</a></li>
+    <li><a class="button nav-links" onclick="scrollToTarget('faq')">FAQ</a></li>
+    <li><a class="button nav-links" onclick="scrollToTarget('roster')">ROSTER</a></li>
+  </ul>
 
-      <p class="section-desc">
-        <p class="black-text body question">Who are you?</p>
-        ​<p class="black-text body answer">We are 6805 CyberJays of Creighton Preparatory School, an all male Jesuit College Preparatory School in Omaha Nebraska.</p>
-        <br>
-        <p class="black-text body question">How much experience do you have?</p>
-        <p class="black-text body answer">We were established during the 2018 Competition season. While we have only competed for one year, our team is mostly comprised of members who have past experience with other forms of competitive robotics.</p>
-        <br>
-        <p class="black-text body question">What makes you special?</p>
-        ​<p class="black-text body answer">We are the only competing team in Omaha, NE. Also we have made great progress in our rookie year, winning the Rookie Inspire Award at the Kansas City Regionals. These being a one many other reasons.</p>
-        <br>
-        <p class="black-text body question">How would we reach out to you?</p>
-        <p class="black-text body answer">Anyone can come up to us at a tournament and also we can be reached at any time through other methods shown on the Contact Us page, accessible by the link below.</p>
-        <br>
-        <p class="black-text body question">How can I access public copies of your code and other documents?</p>
-        ​<p class="black-text body answer">All public documents and files are made available on the Public Resources Page, which can be found at the "social" tab of the website.</p>
-      </p>
+  <div class="container">
+
+    <div class="card z-depth-2" id="about">
+
+      <div class="card-container">
+
+        <p class="header-small">
+          About
+        </p>
+
+        <p class="body">
+          Our mission is to grow as people and the prevalence of robotics not only at our school but around Omaha through camps and outreach programs. This all while focusing on being exemplary models of kindness and sportsmanship to others. We are the only competing team in Omaha, NE. Also we have made great progress in our rookie year, winning the Rookie Inspire Award at the Kansas City Regionals.
+        </p>
+
+      </div>
 
     </div>
 
-    <div class="section" id="members">
+    <div class="card z-depth-2" id="faq">
 
-      <p class="black-text header-small section-title">
-        ROSTER
-      </p>
+      <div class="card-container">
 
-      <p class="section-desc">
-        <table class="z-depth-3">
+        <p class="header-small">
+          FAQ
+        </p>
+
+        <p class="body-bold">
+          Who are you?
+        </p>
+        <p class="body">
+          We are 6805 CyberJays of Creighton Preparatory School, an all male Jesuit College Preparatory School in Omaha Nebraska.
+        </p>
+        <hr>
+        <p class="body-bold">
+          How much experience do you have?
+        </p>
+        <p class="body">
+          We were established during the 2018 Competition season. While we have only competed for one year, our team is mostly comprised of members who have past experience with other forms of competitive robotics.
+        </p>
+        <hr>
+        <p class="body-bold">
+          What makes you special?
+        </p>
+        <p class="body">
+          We are the only competing team in Omaha, NE. Also we have made great progress in our rookie year, winning the Rookie Inspire Award at the Kansas City Regionals. These being a one many other reasons.
+        </p>
+        <hr>
+        <p class="body-bold">
+          How would we reach out to you?
+        </p>
+        <p class="body">
+          Anyone can come up to us at a tournament and also we can be reached at any time through other methods shown on the Contact Us page, accessible by the link below.
+        </p>
+        <hr>
+        <p class="body-bold">
+          How can I access public copies of your code and other documents?
+        </p>
+        <p class="body">
+          All public documents and files are made available on the Public Resources Page, which can be found the document below
+
+          <br><br>
+
+          <a href="/resources.txt" class="button outline-button">RESOURCES</a>
+
+        </p> 
+
+      </div>
+
+    </div>
+
+    <div class="card z-depth-2" id="roster">
+
+      <div class="card-container">
+
+        <p class="header-small">
+          Roster
+        </p>
+
+        <table class="z-depth-1">
           <tr>
-            <th class="black-text body-bold">Name</th>
-            <th class="black-text body-bold">Role</th>
-            <th class="black-text body-bold">Year</th>
+            <th class="top-row black-text body-bold">Name</th>
+            <th class="top-row black-text body-bold">Role</th>
+            <th class="top-row black-text body-bold">Year</th>
           </tr>
           <tr>
             <th class="black-text body">Cian Weekly</th>
@@ -144,25 +170,19 @@
             <th class="black-text body">Junior</th>
           </tr>
         </table>
-      </p>
 
-    </div>
+      </div>
 
-    <div id="social">
-      <a href="https://www.github.com/swidex" class="button white-text outline-button">RESOURCES</a>
-      <a href="https://www.linkedin.com/in/bhall912/" class=" button white-text outline-button">LINKEDIN</a>
-      <a href="mailto:ben1734.hall@gmail.com" class="button white-text outline-button">EMAIL</a>
-      <a href="http://www.twitter.com/swidexx" class=" button white-text outline-button">TWITTER</a>
     </div>
 
     <div class="z-depth-1" id="footer">
 
       <p class="body white-text" id="copyright">
         Copyright &copy;
-      	<script type="text/javascript">
-      		document.write(new Date().getFullYear());
-      	</script>
-      	Ben Hall
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script>
+        Ben Hall
       </p>
 
     </div>

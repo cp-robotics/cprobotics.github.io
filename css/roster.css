@@ -7,10 +7,13 @@ table {
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
-    border-radius: 10px;
     padding: 1em;
 }
 
 tr:hover {
   background-color: #FAFAFA;
+}
+
+.top-row {
+	background-color: #FAFAFA;
 }
