@@ -21,23 +21,19 @@ body {
   padding: 1em 0 0 .5em; line-height: 0; text-align: center;
 }
 
+.desktop {display: block;}
+.mobile {display: none;}
+
 .question {
-  font-family: "Roboto"; font-size: 1em; color: #111111; font-weight: 500; font-style: italic;
-  margin-bottom: 0;
+  font-style: italic; margin-bottom: 0;
 }
 
 .answer {
-  font-family: "Roboto"; font-size: 1em; color: #111111; font-weight: 400;
   margin-left: 3em;
 }
 
-.section-container-desktop {
+.section-container {
   position: absolute; width: 50%; left: 50%; transform: translateX(-50%); margin: 0 auto;
-}
-
-.section-container-mobile {
-  position: absolute; width: 50%; left: 50%; transform: translateX(-50%); margin: 0 auto;
-  display: none;
 }
 
 .section {
@@ -52,19 +48,8 @@ body {
   padding-top: 5em;
 }
 
-.section-title {
-  font-family: "Roboto"; font-size: 1.15em; color: #111111; font-weight: 400;
-}
-
-.section-desc {
-  font-family: "Roboto"; font-size: 1em; color: #111111; font-weight: 300;
-  padding-top: 2em;
-}
-
 .outline-button {
-  font-family: "Roboto"; font-size: .9em; font-weight: 600;
   border: solid 1px white;
-  color: white;
   background-color: transparent;
   padding: .5em 1.5em .5em 1.5em;
   cursor: pointer; text-decoration: none;
@@ -86,7 +71,6 @@ body {
 
 #footer {
   width: 100vw; padding: 1.5em 0 1.5em 0; bottom: 0;
-  font-family: "Roboto";font-size: .9em; font-weight: 600;
   background-color: #002663;
   transform: translateX(-25%);
 }
@@ -97,6 +81,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-      .section-container-mobile {display: inline;}
-      .section-container-desktop { display: none;}
+      .mobile {display: block;}
+      .desktop {display: none;}
 }

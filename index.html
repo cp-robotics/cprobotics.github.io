@@ -6,35 +6,42 @@
   <link rel="stylesheet" href="css/shadow.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/members.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="css/text.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <script type="text/javascript" src="js/scroll.js"></script>
 </head>
 
 <body>
 
-  <div id="splash">
+  <div id="splash" class="desktop">
 
     <img id="header" src="img/logo-white.svg">
 
   </div>
-  <div class="section-container-desktop">
+
+  <div id="splash" class="mobile">
+
+    <img id="header" src="img/logo-white.svg">
+
+  </div>
+
+  <div class="section-container desktop">
 
     <ul class="z-depth-1">
-      <li><a class="active" onclick="scrollToTarget('splash')">HOME</a></li>
-      <li><a onclick="scrollToTarget('about')">ABOUT</a></li>
-      <li><a onclick="scrollToTarget('faq')">FAQ</a></li>
-      <li><a onclick="scrollToTarget('members')">FAQ</a></li>
-      <li><a onclick="scrollToTarget('social')">SOCIAL</a></li>
+      <li><a class="active button" onclick="scrollToTarget('splash')">HOME</a></li>
+      <li><a class="button" onclick="scrollToTarget('about')">ABOUT</a></li>
+      <li><a class="button" onclick="scrollToTarget('faq')">FAQ</a></li>
+      <li><a class="button" onclick="scrollToTarget('members')">ROSTER</a></li>
+      <li><a class="button" onclick="scrollToTarget('social')">SOCIAL</a></li>
     </ul>
 
     <div class="section" id="about">
 
-      <p class="section-title">
+      <p class="black-text header-small section-title">
         ABOUT
       </p>
 
-      <p class="section-desc">
+      <p class="body black-text section-desc">
         Our mission is to grow as people and the prevalence of robotics not only at our school but around Omaha through camps and outreach programs.
         This all while focusing on being exemplary models of kindness and sportsmanship to others.
         We are the only competing team in Omaha, NE.
@@ -45,56 +52,96 @@
 
     <div class="section" id="faq">
 
-      <p class="section-title">
+      <p class="black-text header-small section-title">
         FAQ
       </p>
 
       <p class="section-desc">
-        <p class="question">Who are you?</p>
-        ​<p class="answer">We are 6805 CyberJays of Creighton Preparatory School, an all male Jesuit College Preparatory School in Omaha Nebraska.</p>
+        <p class="black-text body question">Who are you?</p>
+        ​<p class="black-text body answer">We are 6805 CyberJays of Creighton Preparatory School, an all male Jesuit College Preparatory School in Omaha Nebraska.</p>
         <br>
-        <p class="question">How much experience do you have?</p>
-        <p class="answer">We were established during the 2018 Competition season. While we have only competed for one year, our team is mostly comprised of members who have past experience with other forms of competitive robotics.</p>
+        <p class="black-text body question">How much experience do you have?</p>
+        <p class="black-text body answer">We were established during the 2018 Competition season. While we have only competed for one year, our team is mostly comprised of members who have past experience with other forms of competitive robotics.</p>
         <br>
-        <p class="question">What makes you special?</p>
-        ​<p class="answer">We are the only competing team in Omaha, NE. Also we have made great progress in our rookie year, winning the Rookie Inspire Award at the Kansas City Regionals. These being a one many other reasons.</p>
+        <p class="black-text body question">What makes you special?</p>
+        ​<p class="black-text body answer">We are the only competing team in Omaha, NE. Also we have made great progress in our rookie year, winning the Rookie Inspire Award at the Kansas City Regionals. These being a one many other reasons.</p>
         <br>
-        <p class="question">How would we reach out to you?</p>
-        <p class="answer">Anyone can come up to us at a tournament and also we can be reached at any time through other methods shown on the Contact Us page, accessible by the link below.</p>
+        <p class="black-text body question">How would we reach out to you?</p>
+        <p class="black-text body answer">Anyone can come up to us at a tournament and also we can be reached at any time through other methods shown on the Contact Us page, accessible by the link below.</p>
         <br>
-        <p class="question">How can I access public copies of your code and other documents?</p>
-        ​<p class="answer">All public documents and files are made available on the Public Resources Page, which can be found at the "social" tab of the website.</p>
+        <p class="black-text body question">How can I access public copies of your code and other documents?</p>
+        ​<p class="black-text body answer">All public documents and files are made available on the Public Resources Page, which can be found at the "social" tab of the website.</p>
       </p>
 
     </div>
 
-    <div class="section" id="faq">
+    <div class="section" id="members">
 
-      <p class="section-title">
-        MEMBERS
+      <p class="black-text header-small section-title">
+        ROSTER
       </p>
 
       <p class="section-desc">
         <table class="z-depth-3">
           <tr>
-            <th>Name</th>
-            <th>Role</th>
-            <th>Year</th>
+            <th class="black-text body-bold">Name</th>
+            <th class="black-text body-bold">Role</th>
+            <th class="black-text body-bold">Year</th>
           </tr>
           <tr>
-            <th>Cian Weekly</th>
-            <th>Acting Captain</th>
-            <th>Sophmore</th>
+            <th class="black-text body">Cian Weekly</th>
+            <th class="black-text body">Acting Captain</th>
+            <th class="black-text body">Sophmore</th>
           </tr>
           <tr>
-            <th>Cal Tietjen</th>
-            <th>Acting Driver</th>
-            <th>Sophmore</th>
+            <th class="black-text body">Cal Tietjen</th>
+            <th class="black-text body">Acting Driver</th>
+            <th class="black-text body">Sophmore</th>
           </tr>
           <tr>
-            <th>Abram Wulf</th>
-            <th>Build/Design Depatment Head</th>
-            <th>Sophmore</th>
+            <th class="black-text body">Abram Wulf</th>
+            <th class="black-text body">Build/Design Depatment Head</th>
+            <th class="black-text body">Sophmore</th>
+          </tr>
+          <tr>
+            <th class="black-text body">Kevin Prososki</th>
+            <th class="black-text body">Programming Department Head</th>
+            <th class="black-text body">Sophmore</th>
+          </tr>
+          <tr>
+            <th class="black-text body">Andrew Hood</th>
+            <th class="black-text body">Marketing and Public Relations Department Head</th>
+            <th class="black-text body">Sophmore</th>
+          </tr>
+          <tr>
+            <th class="black-text body">Tom Knudsen</th>
+            <th class="black-text body">Electrical Department Head</th>
+            <th class="black-text body">Sophmore</th>
+          </tr>
+          <tr>
+            <th class="black-text body">Luke Reinsch</th>
+            <th class="black-text body">Finance Department Head</th>
+            <th class="black-text body">Senior</th>
+          </tr>
+          <tr>
+            <th class="black-text body">Will Randby</th>
+            <th class="black-text body">Builder</th>
+            <th class="black-text body">Senior</th>
+          </tr>
+          <tr>
+            <th class="black-text body">John Royal</th>
+            <th class="black-text body">Builder, Designer</th>
+            <th class="black-text body">Sophmore</th>
+          </tr>
+          <tr>
+            <th class="black-text body">Elwyn Frailey</th>
+            <th class="black-text body">Mascot, Carpenter</th>
+            <th class="black-text body">Senior</th>
+          </tr>
+          <tr>
+            <th class="black-text body">Ben Hall</th>
+            <th class="black-text body">Graphic Design and Website Developer</th>
+            <th class="black-text body">Junior</th>
           </tr>
         </table>
       </p>
@@ -102,15 +149,15 @@
     </div>
 
     <div id="social">
-      <a href="https://www.github.com/swidex" class="outline-button">RESOURCES</a>
-      <a href="https://www.linkedin.com/in/bhall912/" class="outline-button">LINKEDIN</a>
-      <a href="mailto:ben1734.hall@gmail.com" class="outline-button">EMAIL</a>
-      <a href="http://www.twitter.com/swidexx" class="outline-button">TWITTER</a>
+      <a href="https://www.github.com/swidex" class="button white-text outline-button">RESOURCES</a>
+      <a href="https://www.linkedin.com/in/bhall912/" class=" button white-text outline-button">LINKEDIN</a>
+      <a href="mailto:ben1734.hall@gmail.com" class="button white-text outline-button">EMAIL</a>
+      <a href="http://www.twitter.com/swidexx" class=" button white-text outline-button">TWITTER</a>
     </div>
 
     <div class="z-depth-1" id="footer">
 
-      <p id="copyright">
+      <p class="body white-text" id="copyright">
         Copyright &copy;
       	<script type="text/javascript">
       		document.write(new Date().getFullYear());
