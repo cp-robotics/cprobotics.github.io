@@ -50,7 +50,7 @@ hr {
 
 .outline-button {
   border: 1px solid; border-color: #3f51b5; background-color: transparent; color: #3f51b5;
-  padding: 0.5em; transition: 0.5s; cursor: pointer;
+  padding: 0.5em; transition: 0.5s; cursor: pointer; text-decoration: none;
 }
 
 .outline-button:hover {
