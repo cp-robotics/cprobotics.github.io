@@ -7,31 +7,45 @@
   <link rel="stylesheet" href="css/text.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/roster.css">
+  <link rel="stylesheet" href="css/mobile.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
   <script type="text/javascript" src="js/scroll.js"></script>
+  <script type="text/javascript" src="js/modal.js"></script>
 </head>
 
 <body>
 
-  <div id="header">
+  <div id="header-desktop" class="desktop-only">
 
-    <div class="header-container">
+    <div class="header-container-desktop">
 
-      <img class="header-img" src="img/logo-white.svg">
+      <img class="header-img-desktop desktop-only" src="img/logo-white.svg">
 
-      <p class="header white-text header-text desktop-only">CyberJays</p>
-      <p class="header-small white-text header-text-subtitle desktop-only">Creighton Prep Robotics</p>
+      <p class="header white-text header-text-desktop desktop-only">CyberJays</p>
+      <p class="header-small white-text header-text-subtitle-desktop desktop-only">Creighton Prep Robotics</p>
 
     </div>
 
   </div>
 
-  <ul class="ul z-depth-1">
+  <ul class="ul z-depth-1 desktop-only">
     <li class="li"><a class="a button nav-links" onclick="scrollToTarget('about')">ABOUT</a></li>
     <li class="li"><a class="a button nav-links" onclick="scrollToTarget('faq')">FAQ</a></li>
     <li class="li"><a class="a button nav-links" onclick="scrollToTarget('roster')">ROSTER</a></li>
   </ul>
+
+  <div id="header-mobile" class="mobile-only">
+
+    <div class="header-container-mobile">
+
+      <p class="header-small black-text header-text-mobile mobile-only">CyberJays</p>
+
+      <img class="header-img-mobile mobile-only" src="img/logo-white.svg">
+
+    </div>
+
+  </div>
 
   <div class="container-wrapper">
 

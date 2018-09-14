@@ -8,7 +8,7 @@ body {
   background-color: #F5F5F5;
 }
 
-#header {
+#header-desktop {
   background-color: #3f51b5; width: 100vw; height: 200px;
 }
 
@@ -21,20 +21,27 @@ body {
   position: absolute;
 }
 
-.header-container {
+.header-container-desktop {
   padding-left: 25px;
   top: 50%;
   vertical-align: middle;
   padding-top: 1.5em;
 }
 
-.header-text {
+.header-text-desktop {
   padding-left: 180px;
   margin-top: 35px;
 }
 
-.header-text-subtitle {
+.header-text-subtitle-desktop {
   margin-top: -50px; padding-left: 180px;
+}
+
+.header-img-desktop {
+  width: 125px; height: 125px; position: absolute;
+  padding-left: 25px;
+  vertical-align: middle;
+  padding-top: 15px;
 }
 
 .container-wrapper {
@@ -67,18 +74,12 @@ hr {
   background-color: #3f51b5; color: white;
 }
 
-.header-img {
-  width: 125px; height: 125px; position: absolute;
-  padding-left: 25px;
-  vertical-align: middle;
-  padding-top: 15px;
-}
-
 .card-pictures {
   width: 250px;
   height: 250px;
   object-fit: cover;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 
 .picture-container {
@@ -88,10 +89,9 @@ hr {
 .desktop-only { display: block; }
 .mobile-only { display: none; }
 
-@media only screen
-   and (min-width : 320px)
-   and (max-width : 720px){
-    .container { width: 90vw; }
-    .desktop-only { display: none; }
-    .mobile-only { display: block; }
- }
+@media only screen 
+  and (max-width : 600px){ 
+    .container-wrapper { width: 90vw; margin-left: 3vw;}
+    .desktop-only {display: none;}
+    .mobile-only {display: block;}
+}
