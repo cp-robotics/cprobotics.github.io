@@ -5,7 +5,6 @@ html, body {
 
 body {
   overflow-x: hidden;
-  height: 100vh;
   background-color: #F5F5F5;
 }
 
@@ -13,7 +12,7 @@ body {
   background-color: #3f51b5; width: 100vw; height: 200px;
 }
 
-#footer {
+#footer-real {
   width: 100vw; padding-top: 25px; padding-bottom: 25px;
   background-color: #3f51b5;
   text-align: center;
@@ -22,18 +21,23 @@ body {
   position: absolute;
 }
 
-.header-container {
+.header-container-real {
   padding-left: 25px;
   top: 50%;
   vertical-align: middle;
   padding-top: 1.5em;
 }
 
-.header-text {
+.header-text-real {
   padding-left: 175px;
+  margin-top: 30px;
 }
 
-.container {
+.header-text-subtitle-real {
+  margin-top: -20px; padding-left: 175px;
+}
+
+.container-wrapper {
 	width: 60vw;
 	left: 50%;
 	height: 100vh;
@@ -63,11 +67,24 @@ hr {
   background-color: #3f51b5; color: white;
 }
 
-.header-img {
-  width: 100px; height: 100px; position: absolute;
+.header-img-real {
+  width: 125px; height: 125px; position: absolute;
   padding-left: 25px;
   vertical-align: middle;
   padding-top: 1.5em;
+}
+
+.carousel-control-personal {
+  color: white;
+  border: 0px solid; border-color: #3f51b5; border-radius: 40px;background-color:#3f51b5; padding: 15px;
+}
+
+.carousel-control-personal {
+  color: white;
+}
+
+.right {
+  margin-left: 25px;
 }
 
 .desktop-only { display: block; }

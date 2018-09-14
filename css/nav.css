@@ -3,7 +3,8 @@ ul {
   width: 100vw;
   margin: 0 auto; padding: 0; overflow: hidden;
   background-color: #2d3a82;
-  position: -webkit-sticky; position: sticky; top: 0;
+  top: 0; position: sticky;
+  transition: 0s;
 }
 
 li {

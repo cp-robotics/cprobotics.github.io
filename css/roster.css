@@ -1,17 +1,17 @@
-table {
+.table-roster {
   width: 92%;
   border-collapse: collapse;
   background-color: #FFFFFF;
   left: 50vw; margin: 0 auto;
 }
 
-td, th {
+.td-roster, .th-roster {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 1em;
 }
 
-tr:hover {
+.tr-roster:hover {
   background-color: #FAFAFA;
 }
 

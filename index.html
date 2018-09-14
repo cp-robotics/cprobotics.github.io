@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="css/text.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/roster.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
   <script type="text/javascript" src="js/scroll.js"></script>
@@ -16,11 +19,12 @@
 
   <div id="header">
 
-    <div class="header-container">
+    <div class="header-container-real">
 
-      <img class="header-img" src="img/logo-white.svg">
+      <img class="header-img-real" src="img/logo-white.svg">
 
-      <p class="header-bold white-text header-text desktop-only">CyberJays</p>
+      <p class="header-real white-text header-text-real desktop-only">CyberJays</p>
+      <p class="header-small white-text header-text-subtitle-real desktop-only">Creighton Prep Robotics</p>
 
     </div>
 
@@ -32,7 +36,7 @@
     <li><a class="button nav-links" onclick="scrollToTarget('roster')">ROSTER</a></li>
   </ul>
 
-  <div class="container">
+  <div class="container-wrapper">
 
     <div class="card z-depth-2" id="about">
 
@@ -92,9 +96,10 @@
           How can I access public copies of your code and other documents?
         </p>
         <p class="body">
-          All public documents and files are made available on the Public Resources Page, which can be found the document below
+          All public documents and files are made available on the Public Resources Page, which can be found the document below.
+        </p>
 
-          <br><br>
+          <br>
 
           <a href="/resources.txt" class="button outline-button">RESOURCES</a>
 
@@ -114,66 +119,66 @@
 
       </div>
 
-      <table class="z-depth-1">
+      <table class="table-roster z-depth-1">
         <tr>
-          <th class="top-row black-text body-bold">Name</th>
-          <th class="top-row black-text body-bold">Role</th>
-          <th class="top-row black-text body-bold">Year</th>
+          <th class="th-roster top-row black-text body-bold">Name</th>
+          <th class="th-roster top-row black-text body-bold">Role</th>
+          <th class="th-roster top-row black-text body-bold">Year</th>
         </tr>
         <tr>
-          <th class="black-text body">Cian Weekly</th>
-          <th class="black-text body">Acting Captain</th>
-          <th class="black-text body">Sophmore</th>
+          <th class="th-roster black-text body">Cian Weekly</th>
+          <th class="th-roster black-text body">Acting Captain</th>
+          <th class="th-roster black-text body">Sophmore</th>
         </tr>
         <tr>
-          <th class="black-text body">Cal Tietjen</th>
-          <th class="black-text body">Acting Driver</th>
-          <th class="black-text body">Sophmore</th>
+          <th class="th-roster black-text body">Cal Tietjen</th>
+          <th class="th-roster black-text body">Acting Driver</th>
+          <th class="th-roster black-text body">Sophmore</th>
         </tr>
         <tr>
-          <th class="black-text body">Abram Wulf</th>
-          <th class="black-text body">Build/Design Depatment Head</th>
-          <th class="black-text body">Sophmore</th>
+          <th class="th-roster black-text body">Abram Wulf</th>
+          <th class="th-roster black-text body">Build/Design Depatment Head</th>
+          <th class="th-roster black-text body">Sophmore</th>
         </tr>
         <tr>
-          <th class="black-text body">Kevin Prososki</th>
-          <th class="black-text body">Programming Department Head</th>
-          <th class="black-text body">Sophmore</th>
+          <th class="th-roster black-text body">Kevin Prososki</th>
+          <th class="th-roster black-text body">Programming Department Head</th>
+          <th class="th-roster black-text body">Sophmore</th>
         </tr>
         <tr>
-          <th class="black-text body">Andrew Hood</th>
-          <th class="black-text body">Marketing and Public Relations Department Head</th>
-          <th class="black-text body">Sophmore</th>
+          <th class="th-roster black-text body">Andrew Hood</th>
+          <th class="th-roster black-text body">Marketing and Public Relations Department Head</th>
+          <th class="th-roster black-text body">Sophmore</th>
         </tr>
         <tr>
-          <th class="black-text body">Tom Knudsen</th>
-          <th class="black-text body">Electrical Department Head</th>
-          <th class="black-text body">Sophmore</th>
+          <th class="th-roster black-text body">Tom Knudsen</th>
+          <th class="th-roster black-text body">Electrical Department Head</th>
+          <th class="th-roster black-text body">Sophmore</th>
         </tr>
         <tr>
-          <th class="black-text body">Luke Reinsch</th>
-          <th class="black-text body">Finance Department Head</th>
-          <th class="black-text body">Senior</th>
+          <th class="th-roster black-text body">Luke Reinsch</th>
+          <th class="th-roster black-text body">Finance Department Head</th>
+          <th class="th-roster black-text body">Senior</th>
         </tr>
         <tr>
-          <th class="black-text body">Will Randby</th>
-          <th class="black-text body">Builder</th>
-          <th class="black-text body">Senior</th>
+          <th class="th-roster black-text body">Will Randby</th>
+          <th class="th-roster black-text body">Builder</th>
+          <th class="th-roster black-text body">Senior</th>
         </tr>
         <tr>
-          <th class="black-text body">John Royal</th>
-          <th class="black-text body">Builder, Designer</th>
-          <th class="black-text body">Sophmore</th>
+          <th class="th-roster black-text body">John Royal</th>
+          <th class="th-roster black-text body">Builder, Designer</th>
+          <th class="th-roster black-text body">Sophmore</th>
         </tr>
         <tr>
-          <th class="black-text body">Elwyn Frailey</th>
-          <th class="black-text body">Mascot, Carpenter</th>
-          <th class="black-text body">Senior</th>
+          <th class="th-roster black-text body">Elwyn Frailey</th>
+          <th class="th-roster black-text body">Mascot, Carpenter</th>
+          <th class="th-roster black-text body">Senior</th>
         </tr>
         <tr>
-          <th class="black-text body">Ben Hall</th>
-          <th class="black-text body">Graphic Design and Website Developer</th>
-          <th class="black-text body">Junior</th>
+          <th class="th-roster black-text body">Ben Hall</th>
+          <th class="th-roster black-text body">Graphic Design and Website Developer</th>
+          <th class="th-roster black-text body">Junior</th>
         </tr>
       </table>
 
@@ -181,7 +186,47 @@
 
     </div>
 
-    <div class="z-depth-1" id="footer">
+    <div class="card z-depth-2" id="pictures">
+
+      <div class="card-container">
+
+        <p class="header-small">
+          Pictures
+        </p>
+
+        <div class="container-carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/frc10.jpg" alt="Los Angeles" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="img/frc10.jpg" alt="Chicago" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="img/frc10.jpg" alt="New york" style="width:100%;">
+              </div>
+            </div>
+
+            <br><br>
+            <!-- Left and right controls -->
+            <a class="carousel-control-personal z-depth-3-hover" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="carousel-control-personal z-depth-3-hover" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="z-depth-1" id="footer-real">
 
       <p class="body white-text" id="copyright">
         Copyright &copy;
