@@ -1,7 +1,8 @@
 table {
-  width: 100%;
+  width: 92%;
   border-collapse: collapse;
   background-color: #FFFFFF;
+  left: 50vw; margin: 0 auto;
 }
 
 td, th {
@@ -17,3 +18,9 @@ tr:hover {
 .top-row {
 	background-color: #FAFAFA;
 }
+
+ @media only screen
+    and (min-width : 320px)
+    and (max-width : 720px){
+     table {width: 85vw;}
+  }

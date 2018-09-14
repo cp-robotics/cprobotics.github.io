@@ -14,10 +14,12 @@ body {
 }
 
 #footer {
-  width: 100vw; padding: 1.5em 0 1.5em 0;
+  width: 100vw; padding-top: 25px; padding-bottom: 25px;
   background-color: #3f51b5;
-  transform: translateX(-20%);
   text-align: center;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
 }
 
 .header-container {
@@ -25,6 +27,10 @@ body {
   top: 50%;
   vertical-align: middle;
   padding-top: 1.5em;
+}
+
+.header-text {
+  padding-left: 175px;
 }
 
 .container {
@@ -56,3 +62,21 @@ hr {
 .outline-button:hover {
   background-color: #3f51b5; color: white;
 }
+
+.header-img {
+  width: 100px; height: 100px; position: absolute;
+  padding-left: 25px;
+  vertical-align: middle;
+  padding-top: 1.5em;
+}
+
+.desktop-only { display: block; }
+.mobile-only { display: none; }
+
+@media only screen
+   and (min-width : 320px)
+   and (max-width : 720px){
+    .container { width: 90vw; }
+    .desktop-only { display: none; }
+    .mobile-only { display: block; }
+ }
