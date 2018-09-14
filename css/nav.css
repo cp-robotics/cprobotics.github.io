@@ -1,4 +1,4 @@
-ul {
+.ul {
   list-style-type: none;
   width: 100vw;
   margin: 0 auto; padding: 0; overflow: hidden;
@@ -7,11 +7,11 @@ ul {
   transition: 0s;
 }
 
-li {
+.li {
   float: left;
 }
 
-li a {
+.li .a {
   display: block; text-align: center;
   padding: 1.5em; margin-right: 1em; margin-left: 1em;
   text-decoration: none; transition: 0.3s; cursor: pointer;
